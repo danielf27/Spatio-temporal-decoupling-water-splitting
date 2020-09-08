@@ -6,3 +6,5 @@ Electricity price data from Seel et al. [1] were used for this analysis. The cle
 
 ## Code
 Julia was used in this analysis due to its efficiency for large optimization problems. Two files are provided in the repository. The first, "Before_After_Data.jl", takes the electricity price data and clusters the data into a certain number of "representative time periods" (RTPs). The second, "Stochastic_optimizer.jl", performs the optimization of the operation and sizing of the device. 
+
+[1] Seel, J.;  Mills, A.; Wiser, R. Impacts of High Variable Renewable Energy (VRE) Futures on Wholesale Electricity Prices, and on Electric-Sector Decision Making; U.S. Department of Energy: 2018
